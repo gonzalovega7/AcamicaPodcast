@@ -180,19 +180,18 @@ footer nav a {
 .songs {
     display: flex;
     flex-direction: column;
-    padding-top: 127px;
     margin-bottom: 0;
     align-items: center;
+    overflow: hidden;
+    padding: 127px 11px;
 }
 
-.spotify-songs {
-    margin: 11px;
-    height: 225px;
-    width: 298px;
-}
-
-.spotify-songs::-webkit-scrollbar {
-    display: none;
+.songs iframe {
+    margin-top: 11px;
+    width: 100%;
+    border: 0;
+    overflow: hidden;
+    height: 235px;
 }
 
 
@@ -283,9 +282,8 @@ footer nav a {
     }
     .songs {
         display: flex;
-    }
-    .spotify-songs {
-        flex-basis: calc(50% - .5rem);
+        width: 90%;
+        margin: 0 auto;
     }
     /* info section */
     .info {
@@ -412,7 +410,6 @@ footer nav a {
 
 .news {
     position: relative;
-    margin-top: 24x;
     height: 351px;
     background-image: linear-gradient(#0000FF, #0000A3);
 }
@@ -514,17 +511,17 @@ footer p {
     }
     /* songs section */
     .songs {
-        padding-top: 250px;
+        padding-top: 220px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        margin: 0 100px;
-        width: 90%;
+        margin: 0 auto;
+        width: 100%;
     }
-    .spotify-songs {
+    .songs iframe {
         flex-basis: inherit;
         width: 42%;
-        margin: 0 72px 72px 0;
+        margin: 72px auto 0px auto;
     }
     /* info section */
     .woman-coding {
