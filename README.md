@@ -1,4 +1,5 @@
 # acamica-Podcasts
 First acamica project 
 
-Desarrollo web full stack - Medellin
+Desarrollo web full stack
+
